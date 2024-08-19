@@ -1,0 +1,23 @@
+'''criar um codigo de tabuada
+
+criar um codigo de tabuada em pythom
+num = int(input("Enter a number: "))
+
+# Iterate from 1 to 10
+for i in range(1, 11):
+    # Calculate the product
+    product = num * i
+    # Print the multiplication table
+    print(f"{num} x {i} = {product}")
+'''
+
+
+n1=int(input('Digite o valor:'))
+n2=int(input('Digite outro valor:'))
+s=n1*n2
+#1forma de fazer print('A multiplicação entre',n1,'e',n2,'é o total de:',s,'!!!')
+#errei_print('A soma entre {0}e{1}vale'{2}.format(n1,n2,s))
+print(f'{n1} x {n2} = {s}')
+
+print('fim do programa')
+
